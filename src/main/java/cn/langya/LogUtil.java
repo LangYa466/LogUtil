@@ -15,6 +15,11 @@ public class LogUtil {
         logger = LogManager.getLogger("LogUtil");
     }
 
+    // 这里在Github直接编辑的 懒得clone了
+    public static void setName(String name) {
+        logger = LogManager.getLogger(name);
+    }
+    
     /**
      * 记录信息日志，可以包含格式化参数
      *
